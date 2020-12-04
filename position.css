@@ -1,0 +1,22 @@
+
+.container{
+    left:20px;
+    top:20px;
+    background: orange;
+
+}
+
+div {
+    height: 50px;
+    width:50px;
+    background: red;
+    margin-top: 20px;
+}
+
+.item{
+    
+    left:10px;
+    top:10px;
+    background:  green;
+    position: sticky;
+}

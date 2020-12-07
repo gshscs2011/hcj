@@ -3,9 +3,12 @@
 
 // generial function
 
-const cap = f("good");
-console.log(cap);
+let test = "good";
 
-function f(value){
-    return value[0].toUpperCase() + value.slice(1);
-}
+const cap = value=> value[0].toUpperCase() + value.slice(1);
+
+console.log(cap(test));
+
+
+let applyCustomGreeting('mark', name => `hello ${name}`; );
+
